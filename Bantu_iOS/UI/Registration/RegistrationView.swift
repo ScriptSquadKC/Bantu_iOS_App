@@ -30,25 +30,33 @@ struct RegistrationView: View {
                     .font(.system(size: 15))
                     .padding(.bottom, 24)
                 
+//                
+//                VStack(alignment: .leading, spacing: 20){
+//                    CustomTextFieldView2(
+//                        textComponent: viewModel.username,
+//                        isError: true,
+//                        fieldType: .username)
+//                    
+//                    CustomTextFieldView2(
+//                        textComponent: viewModel.email,
+//                        isError: true,
+//                        fieldType: .email
+//                    )
+//                    
+//                    CustomTextFieldView2(
+//                        textComponent: viewModel.password,
+//                        isError: true,
+//                        fieldType: .password
+//                
+//                        )
+//                    
                 
                 VStack(alignment: .leading, spacing: 20){
-                    CustomTextFieldView2(
-                        textComponent: viewModel.username,
-                        isError: true,
-                        fieldType: .username)
+                    CustomTextFieldView(textComponent: "Usuario", isPassword: false, isError: false, titletextField: "Usuario")
                     
-                    CustomTextFieldView2(
-                        textComponent: viewModel.email,
-                        isError: true,
-                        fieldType: .email
-                    )
+                    CustomTextFieldView(textComponent: "Password", isPassword: true, isError: false, titletextField: "Password")
                     
-                    CustomTextFieldView2(
-                        textComponent: viewModel.password,
-                        isError: true,
-                        fieldType: .password
-                
-                        )
+                    CustomTextFieldView(textComponent: "Email", isPassword: false, isError: false, titletextField: "Usuario")
                     
                     MainButton(textButton: "Sign in") {
                         //TODO Accion

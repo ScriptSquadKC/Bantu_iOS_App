@@ -13,7 +13,7 @@ struct TabBarView: View {
             Color.bantu_orange
                 .ignoresSafeArea()
             TabView {
-                HomeClientView()
+                HomeClientView(dateSchedulle: 3)
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")

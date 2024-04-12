@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct HomeClientView: View {
+    let dateSchedulle: Int
     var body: some View {
-        ScrollView {
-            VStack {
-                HeaderView()
-                
+        VStack(spacing: 0) {
+            HeaderView()
+            ScrollView {
                 VStack(spacing: 16) {
-                ImageHomeComponent(image: "misTablas_Home", 
-                                   text: "Tu texto aquí",
-                                   height: 132)
+                    ImageHomeComponent(image: "misTablas_Home",
+                                       text: "Tu texto aquí",
+                                       height: 120)
                     HStack {
                         VStack(spacing: 20){
                             ImageHomeComponent(image: "Chats1",
@@ -32,13 +32,16 @@ struct HomeClientView: View {
                                            text: "Tu texto aquí",
                                            height: 350)
                     }
+                    
+                    AgendaView(numberOfItems: dateSchedulle)
                 }
-                .padding(.horizontal)
+                .padding()
             }
         }
     }
+    
 }
 
 #Preview {
-    HomeClientView()
+    HomeClientView(dateSchedulle: 3)
 }

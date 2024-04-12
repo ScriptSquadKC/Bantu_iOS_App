@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610989B22BC9787500A78684 /* HomeCoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610989B12BC9787500A78684 /* HomeCoachView.swift */; };
+		610989B42BC97AA500A78684 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610989B32BC97AA500A78684 /* AgendaView.swift */; };
 		613656952BB3361300DA8A71 /* Bantu_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613656942BB3361300DA8A71 /* Bantu_iOSApp.swift */; };
 		613656992BB3361500DA8A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613656982BB3361500DA8A71 /* Assets.xcassets */; };
 		6136569C2BB3361500DA8A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6136569B2BB3361500DA8A71 /* Preview Assets.xcassets */; };
@@ -60,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610989B12BC9787500A78684 /* HomeCoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoachView.swift; sourceTree = "<group>"; };
+		610989B32BC97AA500A78684 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
 		613656912BB3361300DA8A71 /* Bantu_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bantu_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613656942BB3361300DA8A71 /* Bantu_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bantu_iOSApp.swift; sourceTree = "<group>"; };
 		613656982BB3361500DA8A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -325,8 +329,8 @@
 				61C458DD2BB8399400AE8CF3 /* CustomTextField.swift */,
 				61C458DF2BB839AC00AE8CF3 /* CustomTextFieldView.swift */,
 				6178BD082BC18EA800257502 /* HeaderView.swift */,
-				61E62D212BC1A1CA00A5A6CF /* TabBarView.swift */,
 				618F542E2BC2BDFC0088BD2C /* ImageHomeComponent.swift */,
+				610989B32BC97AA500A78684 /* AgendaView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -360,7 +364,9 @@
 		61C458E92BB83B6200AE8CF3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				61E62D212BC1A1CA00A5A6CF /* TabBarView.swift */,
 				6178BD0A2BC1940900257502 /* HomeClientView.swift */,
+				610989B12BC9787500A78684 /* HomeCoachView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -504,6 +510,7 @@
 				61C458E52BB839EA00AE8CF3 /* LoginViewModel.swift in Sources */,
 				618F542F2BC2BDFD0088BD2C /* ImageHomeComponent.swift in Sources */,
 				618F54422BC2FACB0088BD2C /* Coach.swift in Sources */,
+				610989B22BC9787500A78684 /* HomeCoachView.swift in Sources */,
 				618F542D2BC296E50088BD2C /* SettingsView.swift in Sources */,
 				613656DA2BB33C3700DA8A71 /* Color+Extension.swift in Sources */,
 				61C458DA2BB8396600AE8CF3 /* MainButton.swift in Sources */,
@@ -516,6 +523,7 @@
 				6178BD0B2BC1940900257502 /* HomeClientView.swift in Sources */,
 				613656A12BB3361500DA8A71 /* Bantu_iOS.xcdatamodeld in Sources */,
 				61E62D222BC1A1CA00A5A6CF /* TabBarView.swift in Sources */,
+				610989B42BC97AA500A78684 /* AgendaView.swift in Sources */,
 				613656952BB3361300DA8A71 /* Bantu_iOSApp.swift in Sources */,
 				61C458E32BB839D400AE8CF3 /* LoginView.swift in Sources */,
 				618F542A2BC296D00088BD2C /* SocialView.swift in Sources */,
