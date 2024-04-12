@@ -4,7 +4,13 @@
     "¡¡ Correo incorrecto !!" : {
 
     },
+    "Coach" : {
+
+    },
     "Create an account" : {
+
+    },
+    "Create your account" : {
 
     },
     "Forgot Password?" : {
@@ -13,13 +19,31 @@
     "Hola2 alguien" : {
 
     },
+    "Home" : {
+
+    },
     "Key" : {
       "extractionState" : "manual"
     },
     "Login to your Account" : {
 
     },
+    "Register" : {
+
+    },
     "Remember me" : {
+
+    },
+    "search" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Social" : {
+
+    },
+    "Social " : {
 
     },
     "Wellcome Back" : {
@@ -28,7 +52,7 @@
     "Your email" : {
 
     },
-    "Your password" : {
+    "Your Password" : {
 
     }
   },

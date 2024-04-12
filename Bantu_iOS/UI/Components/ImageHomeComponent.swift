@@ -18,8 +18,6 @@ struct ImageHomeComponent: View {
             Image(image)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                
-            
             Text(text)
                 .font(.system(size: 17))
                 .fontWeight(.bold)
