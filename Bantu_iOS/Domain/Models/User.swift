@@ -20,7 +20,3 @@ struct User: Codable {
 
 }
 
-struct AuthResponse: Codable {
-    let accesToken: String?
-    let refreshToken: String?
-}

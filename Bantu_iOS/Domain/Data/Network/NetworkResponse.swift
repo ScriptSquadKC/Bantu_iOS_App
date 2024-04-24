@@ -14,6 +14,16 @@ final class NetworkResponse {
         try await checkResponse(request: .request(networkRequest: .login(email: email, password: password)), type: AuthResponse.self)
     }
     
+    func mockedLogin(email: String, password: String) throws -> AuthResponse {
+        if(email == "mocked" && password == "mocked"){
+            return AuthResponse(accesToken: "asdasdasd", refreshToken: "dasdasd", id: "1")
+        }else{
+            throw NetworkErrors.general
+        }
+    }
+    
+    
+    
     func registerUser(user: User) async throws -> VoidResponse{
         try await checkResponse(request: .request(networkRequest: .registerUser(user: user)), type: VoidResponse.self)
     }
