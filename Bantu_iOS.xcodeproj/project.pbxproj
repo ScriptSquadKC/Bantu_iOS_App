@@ -65,6 +65,8 @@
 		61E62D222BC1A1CA00A5A6CF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E62D212BC1A1CA00A5A6CF /* TabBarView.swift */; };
 		61EDCB0D2BCA905700D79608 /* HomeCoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EDCB0C2BCA905700D79608 /* HomeCoachView.swift */; };
 		61EDCB0F2BCA906B00D79608 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EDCB0E2BCA906B00D79608 /* AgendaView.swift */; };
+		8DBAA0852BD984C7004B94D3 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBAA0842BD984C7004B94D3 /* AuthResponse.swift */; };
+		8DBAA0872BD984E6004B94D3 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBAA0862BD984E6004B94D3 /* LoginTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +147,8 @@
 		61E62D212BC1A1CA00A5A6CF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		61EDCB0C2BCA905700D79608 /* HomeCoachView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoachView.swift; sourceTree = "<group>"; };
 		61EDCB0E2BCA906B00D79608 /* AgendaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		8DBAA0842BD984C7004B94D3 /* AuthResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		8DBAA0862BD984E6004B94D3 /* LoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +248,7 @@
 		613656A92BB3361500DA8A71 /* Bantu_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				8DBAA0862BD984E6004B94D3 /* LoginTests.swift */,
 				613656AA2BB3361500DA8A71 /* Bantu_iOSTests.swift */,
 				1FA56BDB2BD960CF003E3628 /* KeychainTest.swift */,
 				1FA56BE12BD97546003E3628 /* ModelsTest.swift */,
@@ -336,6 +341,7 @@
 		618F54372BC2F6F20088BD2C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8DBAA0842BD984C7004B94D3 /* AuthResponse.swift */,
 				618F543F2BC2FAC10088BD2C /* User.swift */,
 				618F54412BC2FACB0088BD2C /* Professional.swift */,
 				618F54432BC2FAD70088BD2C /* Country.swift */,
@@ -689,6 +695,7 @@
 				618F54402BC2FAC10088BD2C /* User.swift in Sources */,
 				1FA56BE42BD976DF003E3628 /* UserFake.swift in Sources */,
 				61CBB0BA2BCA667800138F67 /* AlertView.swift in Sources */,
+				8DBAA0852BD984C7004B94D3 /* AuthResponse.swift in Sources */,
 				61C2EF832BCBD5EF00DB96F9 /* Professional_Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,6 +707,7 @@
 				1FA56BE62BD9791C003E3628 /* LoginViewModelTest.swift in Sources */,
 				613656AB2BB3361500DA8A71 /* Bantu_iOSTests.swift in Sources */,
 				1FA56BDC2BD960CF003E3628 /* KeychainTest.swift in Sources */,
+				8DBAA0872BD984E6004B94D3 /* LoginTests.swift in Sources */,
 				1FA56BE22BD97546003E3628 /* ModelsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
